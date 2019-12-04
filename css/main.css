@@ -194,6 +194,12 @@ nav a:focus, nav a:hover {
 	font-size: .7em;
 	line-height: 2.5em;
 }
+#hero-txt1 {
+	color: #FF80AE;
+}
+#hero-txt3 {
+	color: #80AFFF;
+}
 .portfolio {
 	margin-top: 5em;
 	display: flex;
@@ -407,12 +413,6 @@ nav a:focus, nav a:hover {
 	}
 	.hero-text {
 		font-size: 1.1em;
-	}
-	#hero-txt1 {
-		color: #FF80AE;
-	}
-	#hero-txt3 {
-		color: #80AFFF;
 	}
 	.contact {
 		flex-flow: row wrap;
