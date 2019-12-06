@@ -75,20 +75,23 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* ==========================================================================
+   GRID
+   ========================================================================== */
 *, *:before, *:after {
 	box-sizing: border-box;
 }
 html {
-	scroll-behavior: smooth;
 	font-size: 1em;
+	scroll-behavior: smooth;
 }
 h1 {
 	font-family: 'Crimson Text', serif;
 }
 h2 {
-	text-align: center;
 	color: #d5004d;
 	font-size: 1.5625em;
+	text-align: center;
 	width: 100%;
 }
 h3 {
@@ -102,9 +105,9 @@ img {
 	max-width: 100%;
 }
 figcaption {
-	width: 100%;
-	text-align: center;
 	margin-bottom: 4em;
+	text-align: center;
+	width: 100%;
 }
 .cointainer {
 	margin: 0 auto;
@@ -113,29 +116,31 @@ figcaption {
 }
 body {
 	background-image: linear-gradient(#100f22 50%, #2c295d);
-	margin: 0 auto;
 	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
 }
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
 header {
-	color: #F3FFEC;
 	align-items: center;
+	color: #F3FFEC;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	width: 100%;
-	text-align: center;
 	margin: 0 auto;
+	text-align: center;
+	width: 100%;
 }
 .logo {
 	border-bottom: 0.0625em solid #3a3a3a;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	width: 100%;
 	margin: 0 auto;
+	width: 100%;
 }
 header h1 {
-	padding-right: .3em;
 	font-weight: 400;
 }
 .nav {
@@ -143,8 +148,8 @@ header h1 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	width: 100%;
 	padding-right: 1em;
+	width: 100%;
 }
 nav {
 	width: 100%;
@@ -152,8 +157,8 @@ nav {
 nav ul {
 	display: flex;
 	justify-content: space-around;
-	padding: 0;
 	list-style: none;
+	padding: 0;
 }
 nav li {
 	font-family: 'Crimson Text', serif;
@@ -166,33 +171,36 @@ nav a {
 nav a:focus, nav a:hover {
 	color: #DDD;
 }
+/* ==========================================================================
+   HERO AREA
+   ========================================================================== */
 .hero-area {
 	display: flex;
-	justify-content: center;
 	flex-flow: row wrap;
-	width: 100%;
+	justify-content: center;
 	margin: 0 auto;
 	max-width: 600px;
+	width: 100%;
 }
 .hero-img {
-	margin-top: 2.5em;
-	width: 100%;
 	background-image: url("../img/triangle-centered.png");
-	padding: 9.5em 0;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-top: 2.5em;
+	padding: 9.5em 0;
+	width: 100%;
 }
 .hero-text {
 	color: #F3FFEC;
 	display: flex;
-	margin-top: -16em;
 	flex-flow: row wrap;
-	text-align: center;
-	justify-content: center;
-	width: 100%;
 	font-size: .7em;
+	justify-content: center;
 	line-height: 2.5em;
+	margin-top: -16em;
+	text-align: center;
+	width: 100%;
 }
 #hero-txt1 {
 	color: #FF80AE;
@@ -200,31 +208,40 @@ nav a:focus, nav a:hover {
 #hero-txt3 {
 	color: #80AFFF;
 }
+/* ==========================================================================
+   PORTFOLIO
+   ========================================================================== */
+.portfolio a {
+	text-decoration: none;
+}
 .portfolio {
-	margin-top: 5em;
-	display: flex;
-	justify-content: center;
-	flex-flow: row wrap;
 	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-top: 5em;
 }
 .portfolio h3 {
 	text-align: center;
 }
 .portfolio-entry {
-	display: flex;
-	justify-content: center;
-	flex-flow: row wrap;
 	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 }
 .portfolio-entry img {
 	max-width: 450px;
 	width: 100%;
 }
+/* ==========================================================================
+   ABOUT AREA
+   ========================================================================== */
 .about {
+	align-items: center;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	align-items: center;
 }
 .about h2 {
 	margin-bottom: 2em;
@@ -236,23 +253,26 @@ nav a:focus, nav a:hover {
 .about-text {
 	text-align: center;
 }
+/* ==========================================================================
+   CONTACT/ADDRESS AREA
+   ========================================================================== */
 .contact {
-	display: flex;
-	justify-content: center;
 	align-items: center;
+	display: flex;
 	flex-flow: column wrap;
+	justify-content: center;
 	text-align: center;
 }
 .contact h2 {
-	margin-top: 2em;
 	margin-bottom: 1.5em;
+	margin-top: 2em;
 }
 .contact h3 {
 	margin: 1em 0;
 }
 .contact p {
-	margin: 1em 0 2em 0;
 	color: beige;
+	margin: 1em 0 2em 0;
 }
 .contact a {
 	color: beige;
@@ -266,11 +286,11 @@ nav a:focus, nav a:hover {
 }
 .map figure {
 	height: 0;
+	margin: 0 auto;
 	overflow: hidden;
 	padding-bottom: 50%;
 	position: relative;
 	width: 100%;
-	margin: 0 auto;
 }
 .map iframe {
 	height: 100%;
@@ -359,7 +379,9 @@ nav a:focus, nav a:hover {
    Modify as content requires.
    ========================================================================== */
 @media only screen and (min-width: 768px) {
-	h1 {}
+	/* ==========================================================================
+   TABLET GRID
+   ========================================================================== */
 	h2 {
 		font-size: 2.5em;
 	}
@@ -372,21 +394,24 @@ nav a:focus, nav a:hover {
 	.cointainer {
 		max-width: 640px;
 	}
+	/* ==========================================================================
+   TABLET HEADER
+   ========================================================================== */
 	header {
 		align-items: center;
-		width: 100%
+		width: 100%;
 	}
 	.logo {
-		font-size: 1.3em;
 		border: none;
+		font-size: 1.3em;
+		justify-content: flex-start;
 		margin: 0 auto;
 		width: 45%;
-		justify-content: flex-start;
 	}
 	.logo span {
+		border-top: 0.0625em solid #3a3a3a;
 		display: block;
 		font-size: .7em;
-		border-top: 0.0625em solid #3a3a3a;
 		line-height: 1.1em;
 	}
 	.hidden2 {
@@ -399,12 +424,12 @@ nav a:focus, nav a:hover {
 		justify-content: flex-end;
 	}
 	nav li {
-		font-size: 2em;
 		flex-basis: 50%;
+		font-size: 2em;
 	}
-	.about {
-		margin-top: -1em;
-	}
+	/* ==========================================================================
+   TABLET HERO AREA
+   ========================================================================== */
 	.hero-area {
 		max-width: 900px;
 	}
@@ -414,15 +439,23 @@ nav a:focus, nav a:hover {
 	.hero-text {
 		font-size: 1.1em;
 	}
+	/**/
+	.about {
+		margin-top: -1em;
+	}
+	/**/
+	/* ==========================================================================
+   TABLET CONTACT/ADDRESS AREA
+   ========================================================================== */
 	.contact {
 		flex-flow: row wrap;
 		width: 100%;
 	}
 	.hire-follow {
 		display: flex;
-		width: 100%;
 		flex-flow: row wrap;
 		justify-content: space-between;
+		width: 100%;
 	}
 	.col1 p {
 		padding-top: .6em;
@@ -446,7 +479,9 @@ nav a:focus, nav a:hover {
 	.cointainer {
 		max-width: 960px;
 	}
-	header {}
+	/* ==========================================================================
+   PC HEADER
+   ========================================================================== */
 	.logo {
 		max-width: 500px;
 	}
@@ -454,9 +489,12 @@ nav a:focus, nav a:hover {
 		max-width: 500px;
 	}
 	nav li {
-		font-size: 2em;
 		flex-basis: 50%;
+		font-size: 2em;
 	}
+	/* ==========================================================================
+   PC HERO AREA
+   ========================================================================== */
 	.hero-area {
 		max-width: 1300px;
 	}
@@ -466,6 +504,9 @@ nav a:focus, nav a:hover {
 	.hero-text {
 		font-size: 1.55em;
 	}
+	/* ==========================================================================
+   PC PORTFOLIO AREA
+   ========================================================================== */
 	.portfolio {
 		margin-top: 5em;
 	}
@@ -483,12 +524,18 @@ nav a:focus, nav a:hover {
 		max-width: 500px;
 		width: 100%;
 	}
-	.pf1 {
+	.pf-top {
 		margin-top: 2em;
 	}
-	.pf2 {
+	.pf1 {
+		margin-top: -2em;
+	}
+	.pf-bot {
 		margin-top: 0;
 	}
+	/* ==========================================================================
+   PC ABOUT AND CONTACT
+   ========================================================================== */
 	.about h2 {
 		margin-bottom: 4em;
 	}
