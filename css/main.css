@@ -378,6 +378,12 @@ nav a:focus, nav a:hover {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media all and (max-width: 395px) {
+
+	.logo {
+		font-size: .8em;
+	}
+}
 @media only screen and (min-width: 768px) {
 	/* ==========================================================================
    TABLET GRID
